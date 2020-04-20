@@ -29,3 +29,10 @@ Packet loss and latency should be reported as each message received.
 ## Additional feature
 
 1. Added support for both IPv4 and IPv6
+
+## How to run
+
+1. Install go if not available. 
+2. Download the above ping.go file
+2. In the terminal run the command: go run %Path_to_this_file%\ ping (hostname or IP address as an argument)
+3. To interrupt the infinite loop, type ctrl+c
